@@ -10,6 +10,7 @@ import LogOut from './Pages/Login & LogOut/LogOut'
 import Admin from './Systems/Admin'
 import DayPrefect from './Pages/VotingPages/DayPrefect'
 import PrepPrefect from './Pages/VotingPages/PrepPrefect'
+import Index from './Public Statistics/PublicStats'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
   <Route path='/PrepPrefect/*' element={<PrepPrefect />}/>
   <Route path='/CompoundPrefectPage/*' element={<CompondPrefectPage />}/>
   <Route path='/DiningPrefectPage/*' element={<DinningHallPrefectPage />}/>
+  <Route path='/PublicStatistics' element={<Index />}/>
   <Route path='*' element={<ErrorPage />}/>
 </Routes>
 
